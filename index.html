@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riverbend Vows | Affordable Wedding Planning in the Iowa City Area</title>
+  <meta name="description" content="Riverbend Vows helps couples find affordable wedding venues, small wedding spaces, and trusted wedding vendors in the Iowa City area.">
+  <style>
+    :root {
+      --sage: #5f7a61;
+      --sage-dark: #3f5541;
+      --cream: #faf7f2;
+      --blush: #f3e3dc;
+      --ink: #2d2a26;
+      --muted: #6b645c;
+      --line: #e2d9cf;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--cream);
+      color: var(--ink);
+      line-height: 1.65;
+      font-size: 1.05rem;
+    }
+    a { color: var(--sage-dark); }
+    .notice {
+      background: var(--ink);
+      color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.85rem;
+      text-align: center;
+      padding: 0.6rem 1rem;
+      margin: 0;
+    }
+    header {
+      background: #fff;
+      border-bottom: 1px solid var(--line);
+      padding: 1rem;
+      text-align: center;
+    }
+    .brand {
+      font-size: 1.7rem;
+      color: var(--sage-dark);
+      text-decoration: none;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+    }
+    .tagline {
+      margin: 0.2rem 0 0.8rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+    nav a {
+      display: block;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.95rem;
+      text-decoration: none;
+      padding: 0.5rem 0.9rem;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      color: var(--ink);
+      background: var(--cream);
+    }
+    nav a:hover, nav a:focus { background: var(--blush); }
+    nav a[aria-current="page"] {
+      background: var(--sage);
+      border-color: var(--sage);
+      color: #fff;
+    }
+    .hero {
+      background: var(--blush);
+      padding: 2.5rem 1rem;
+      text-align: center;
+    }
+    .hero h1 { margin: 0 0 0.6rem; font-size: 2rem; line-height: 1.25; }
+    .hero p { max-width: 640px; margin: 0 auto; font-size: 1.1rem; }
+    main { max-width: 880px; margin: 0 auto; padding: 1.5rem 1rem 2.5rem; }
+    h2 { color: var(--sage-dark); margin-top: 2.2rem; line-height: 1.3; }
+    h3 { margin-bottom: 0.3rem; line-height: 1.3; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 1.1rem 1.2rem;
+    }
+    .card h3 { margin-top: 0; }
+    .meta {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.88rem;
+      color: var(--muted);
+      margin: 0 0 0.5rem;
+    }
+    .price { font-weight: bold; color: var(--sage-dark); }
+    .button {
+      display: inline-block;
+      margin-top: 0.4rem;
+      background: var(--sage);
+      color: #fff;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.95rem;
+      padding: 0.55rem 1rem;
+      border-radius: 6px;
+    }
+    .button:hover, .button:focus { background: var(--sage-dark); }
+    .callout {
+      background: #fff;
+      border-left: 5px solid var(--sage);
+      padding: 1rem 1.2rem;
+      margin: 1.5rem 0;
+      border-radius: 0 8px 8px 0;
+    }
+    .table-wrap { overflow-x: auto; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.92rem;
+      min-width: 520px;
+    }
+    th, td { border: 1px solid var(--line); padding: 0.6rem; text-align: left; }
+    th { background: var(--sage); color: #fff; }
+    footer {
+      background: var(--ink);
+      color: #eee;
+      padding: 1.5rem 1rem;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.9rem;
+    }
+    footer a { color: #fff; }
+    footer nav a {
+      background: transparent;
+      color: #fff;
+      border-color: #6b645c;
+    }
+    footer nav a[aria-current="page"] { background: var(--sage); border-color: var(--sage); }
+    footer .notice { background: transparent; padding: 1rem 0 0; }
+    @media (max-width: 600px) {
+      body { font-size: 1rem; }
+      .hero h1 { font-size: 1.6rem; }
+      nav ul { flex-direction: column; align-items: stretch; }
+      nav a { text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <p class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p>
+
+  <header>
+    <a class="brand" href="index.html">Riverbend Vows</a>
+    <p class="tagline">Beautiful Iowa City weddings without the big-city price tag</p>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="affordable-wedding-venues-iowa-city.html">Affordable Venues</a></li>
+        <li><a href="small-wedding-venues-iowa-city.html">Small Venues</a></li>
+        <li><a href="iowa-city-wedding-vendors.html">Wedding Vendors</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Affordable Wedding Planning in the Iowa City Area</h1>
+    <p>Riverbend Vows is a local planning guide for couples who want a wedding that feels personal, looks lovely, and still leaves room in the budget for the honeymoon.</p>
+  </section>
+
+  <main>
+    <h2>Why We Started Riverbend Vows</h2>
+    <p>Founder Maren Lindqvist planned her own Iowa City wedding in 2019 on a budget of just under $9,000. She spent months calling venues, comparing quotes, and learning which "packages" were actually a good deal. When friends started asking for her spreadsheet, she realized other couples needed the same help. Riverbend Vows grew out of that spreadsheet.</p>
+    <p>Today our small team visits venues in person, talks with local vendors, and writes honest guides that show real price ranges up front. We do not charge couples for our guides, and every recommendation explains who the option is best for, not just why it is nice.</p>
+
+    <h2>Start With Our Planning Guides</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Affordable Wedding Venues</h3>
+        <p class="meta">Most rentals under $2,500</p>
+        <p>Community halls, riverside pavilions, a converted mill, and a countryside barn, with honest notes on what each price includes.</p>
+        <a class="button" href="affordable-wedding-venues-iowa-city.html">See affordable venues</a>
+      </article>
+      <article class="card">
+        <h3>Small Wedding Venues</h3>
+        <p class="meta">Spaces for 10 to 60 guests</p>
+        <p>Private dining rooms, a garden courtyard, a historic chapel, and other cozy spaces made for micro-weddings and elopements.</p>
+        <a class="button" href="small-wedding-venues-iowa-city.html">See small venues</a>
+      </article>
+      <article class="card">
+        <h3>Iowa City Wedding Vendors</h3>
+        <p class="meta">Photographers, caterers, florists and more</p>
+        <p>Local vendors we trust, typical price ranges, and the questions to ask before you sign a contract.</p>
+        <a class="button" href="iowa-city-wedding-vendors.html">See wedding vendors</a>
+      </article>
+    </div>
+
+    <h2>How We Help Couples Save</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Real Prices Up Front</h3>
+        <p>Every venue and vendor listing shows a price range, so you can rule things out quickly instead of waiting days for a quote.</p>
+      </div>
+      <div class="card">
+        <h3>Off-Peak Know-How</h3>
+        <p>A Friday in November can cost half as much as a Saturday in June. We point out which dates and seasons offer the best value.</p>
+      </div>
+      <div class="card">
+        <h3>Local Connections</h3>
+        <p>We know which caterers will work in a park shelter and which florists offer small-wedding bundles, so you are not starting from scratch.</p>
+      </div>
+    </div>
+
+    <div class="callout">
+      <strong>Quick tip:</strong> Set your guest count before you tour a single venue. Guest count drives almost every other cost, from catering to chairs to cake, and knowing it first keeps you from falling in love with a space that is too big or too small.
+    </div>
+
+    <h2>Meet the Team</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Maren Lindqvist</h3>
+        <p class="meta">Founder and Lead Planner</p>
+        <p>Maren has helped more than 140 couples plan weddings in Johnson County. She loves a good spreadsheet and an even better first dance.</p>
+      </div>
+      <div class="card">
+        <h3>Tomas Okafor</h3>
+        <p class="meta">Vendor Coordinator</p>
+        <p>Tomas meets with every vendor we feature, checks their reviews, and makes sure their pricing in our guides stays current each season.</p>
+      </div>
+      <div class="card">
+        <h3>Priya Natarajan</h3>
+        <p class="meta">Budget Specialist</p>
+        <p>Priya builds sample budgets for every guide and helps couples decide where to splurge and where to save.</p>
+      </div>
+    </div>
+
+    <h2>Get in Touch</h2>
+    <p>Have a question about a venue or need help building your budget? Email us at <a href="mailto:hello@riverbendvows.example">hello@riverbendvows.example</a> or call (319) 555-0142, Monday through Friday from 10 a.m. to 5 p.m. We reply to every message within two business days.</p>
+  </main>
+
+  <footer>
+    <nav aria-label="Footer navigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="affordable-wedding-venues-iowa-city.html">Affordable Venues</a></li>
+        <li><a href="small-wedding-venues-iowa-city.html">Small Venues</a></li>
+        <li><a href="iowa-city-wedding-vendors.html">Wedding Vendors</a></li>
+      </ul>
+    </nav>
+    <p>Riverbend Vows &middot; Iowa City, Iowa &middot; hello@riverbendvows.example</p>
+    <p class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p>
+  </footer>
+</body>
+</html>
