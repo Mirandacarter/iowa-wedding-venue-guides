@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mirandacarter.github.io/iowa-wedding-venue-guides/sitemap.xml
